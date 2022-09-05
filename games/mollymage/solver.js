@@ -44,7 +44,8 @@ var MollymageSolver = module.exports = {
         const perks = board.getPerks();
         const otherHeroes = board.findAll(Element.OTHER_HERO);
         // const otherHeroes = board.findAll(Element.OTHER_HERO).concat(board.findAll(Element.ENEMY_HERO));
-        const objectives = perks.concat(otherHeroes);
+        //const objectives = perks.concat(otherHeroes);
+        const objectives = perks.concat(otherHeroes).concat(board.getTreasureBoxes());
         const getNearFieldsArround = getNearFields(posHero.x, posHero.y, 4)
         const safeFields = perks.concat(board.findAll(Element.NONE));
         // const safeFields = board.findAll(Element.NONE);
