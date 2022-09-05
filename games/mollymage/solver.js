@@ -393,7 +393,7 @@ var MollymageSolver = module.exports = {
         }
         else {
 
-            if ((getNearExtended(posHero.x, posHero.y, 1).includes(Element.TREASURE_BOX)
+            if ((getNearExtended(posHero.x, posHero.y, 2).includes(Element.TREASURE_BOX)
                 || getNearExtended(posHero.x, posHero.y, 4).includes(Element.GHOST)
                 // || board.getNear(posHero.x, posHero.y).includes(Element.GHOST)
                 || getNearExtended(posHero.x, posHero.y, 4).includes(Element.GHOST_DEAD)
