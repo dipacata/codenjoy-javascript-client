@@ -23,7 +23,7 @@
 var Runner = module.exports = function() {
     // set game name and url
     var GAME_TO_RUN = 'mollymage';
-    var SERVER_URL  = 'http://127.0.0.1:8080/codenjoy-contest/board/player/0?code=000000000000';
+    var SERVER_URL  = 'https://dojorena.io/codenjoy-contest/board/player/dojorena2651?code=8848122904261125839';
 
     var Games = require('./games.js');
     Games.init(GAME_TO_RUN);
@@ -41,7 +41,7 @@ var Runner = module.exports = function() {
 
         var logMessage = board + "\n\n";
         var answer = Solver.get(board).toString();
-        logMessage += "Answer: " + answer + "\n";
+        logMessage += "Answerrrrrrrrrr: " + answer + "\n";
         logMessage += "-----------------------------------\n";
 
         Stuff.log(logMessage);

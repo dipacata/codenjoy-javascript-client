@@ -21,7 +21,7 @@
  */
 
 var Games = require('../engine/games.js');
-var all = ['a2048', 'rawelbbub', 'excitebike', 'icancode', 'sample', 'knibert', 'tetris', 'clifford', 'verland'];
+var all = ['a2048', 'rawelbbub', 'excitebike', 'icancode', 'sample', 'knibert', 'tetris', 'clifford', 'verland', 'mollymage'];
 for (var index in all) {
     var game = all[index];
 
